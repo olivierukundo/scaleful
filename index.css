@@ -80,8 +80,8 @@ body{
   }
 
   #about img{
-    max-width: min-content;
-    min-height: min-content;
+    width: min-content;
+    height: min-content;
     border-radius: 60%;
     align-self: center;
   }
@@ -211,7 +211,11 @@ body{
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+  }
 
+  #about img{
+    width: 240px;
+    height: 240px;
   }
 
   .text{
