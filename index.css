@@ -228,7 +228,7 @@ body{
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 858px){
   #about{
     display: flex;
     flex-direction: column;
@@ -245,19 +245,14 @@ body{
   }
 
   h1{
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (max-width: 1024px){
   #about{
     display: flex;
     flex-direction: row;
-  }
-
-  #about img{
-    width: 400px;
-    height: 390px;
   }
 
   .text p{
@@ -266,7 +261,7 @@ body{
   }
 
   h1{
-    font-size: 70px;
+    font-size: 40px;
   }
 
 }
