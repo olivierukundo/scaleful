@@ -228,7 +228,7 @@ body{
 
 }
 
-@media screen and (max-width: 858px){
+@media screen and (max-width: 768px){
   #about{
     display: flex;
     flex-direction: column;
@@ -240,7 +240,7 @@ body{
   }
 
   .text p{
-    font-size: 40px;
+    font-size: 20px;
     line-height: normal;
   }
 
@@ -249,19 +249,59 @@ body{
   }
 }
 
-@media screen and (max-width: 1024px){
+@media only screen and (min-width : 768px) and (max-width : 1000px) {
   #about{
     display: flex;
     flex-direction: row;
+    overflow-x: hidden;
+  }
+
+  #about img{
+    width: 350px;
+    height: 340px;
+  }
+  .text{
+    align-items: center;
   }
 
   .text p{
-    font-size: 40px;
+    font-size: 20px;
     line-height: normal;
   }
 
   h1{
+    font-size: 50px;
+  }
+}
+  
+
+@media screen and (max-width: 1024px){
+  h1{
+    font-size: 50px;
+  }
+
+  .text p{
+    font-size: 30px;
+    line-height: normal;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  h1{
+    font-size: 70px;
+  }
+
+  .text p{
+    font-size: 60px;
+    line-height: normal;
+  }
+
+  #enroll p{
     font-size: 40px;
   }
 
+  .form{
+    width: fit-content;
+    height: max-content;
+  }
 }
