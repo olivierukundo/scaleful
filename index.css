@@ -161,16 +161,16 @@ border-radius: 5px;
 /* a bit big Mobile */
 @media screen and (max-width: 1000px){
   .name{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 30px;
-    font-size:40px;
+    font-size:30px;
   }
 
   h2{
     margin-left: 160px;
     margin-top: 0px;
-    margin-bottom: 20px;
-    font-size: 40px;
+    margin-bottom: 10px;
+    font-size: 30px;
     text-align: center;
   }
 
@@ -183,9 +183,9 @@ border-radius: 5px;
   }
 
     h3{
-    font-size: 18px;  
+    font-size: 15px;  
     margin-left: 150px; 
-    margin-bottom: 15px;
+    margin-bottom: 6px;
   } 
 
   .checks{
@@ -194,15 +194,15 @@ border-radius: 5px;
 
   .one{
   margin-left: 230px;
-  margin-bottom: 15px;
+  margin-bottom: 7px;
 }
   .two{
     margin-left: 160px;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
   }
   .three{
     margin-left: 70px;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
   }
 
   .button{
