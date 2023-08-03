@@ -144,30 +144,31 @@ body{
   }
 
   .coach img{
-    width: 300px;
+    width: 250px;
   }
 
     h3{
-    font-size: 18px;  
-    margin-left: 150px; 
+    font-size: 14px;  
+    margin-left: 100px; 
     margin-bottom: 16px;
   } 
 
   .checks{
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .one{
-  margin-left: 230px;
-  margin-bottom: 7px;
+  margin-left: 160px;
+  margin-bottom: 10px;
 }
   .two{
-    margin-left: 160px;
-    margin-bottom: 7px;
+    margin-left: 70px;
+    margin-bottom: 10px;
   }
   .three{
-    margin-left: 70px;
-    margin-bottom: 7px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+    font-size: 13px;
   }
 
   .button{
