@@ -92,7 +92,7 @@ body{
   }
 
   .coach img{
-    width: 200px;
+    width: 350px;
   }
 
     h3{
@@ -102,7 +102,7 @@ body{
   } 
 
   .checks{
-    font-size: 13px;
+    font-size: 17px;
   }
 
   .one{
@@ -114,7 +114,7 @@ body{
     margin-bottom: 15px;
   }
   .three{
-    margin-left: 70px;
+    margin-left:70px;
     margin-bottom: 15px;
   }
 
@@ -144,17 +144,17 @@ body{
   }
 
   .coach img{
-    width: 200px;
+    width: 300px;
   }
 
     h3{
-    font-size: 15px;  
+    font-size: 18px;  
     margin-left: 150px; 
-    margin-bottom: 6px;
+    margin-bottom: 16px;
   } 
 
   .checks{
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .one{
@@ -229,57 +229,6 @@ body{
 }
 
 
-@media screen and (max-width: 768px){
-
-  .name{
-    margin-top: 30px;
-    margin-left: 30px;
-    font-size:30px;
-  }
-
-  h2{
-    margin-left: 160px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .coach{
-    float: right;
-  }
-
-  .coach img{
-    width: 200px;
-  }
-
-    h3{
-    font-size: 13px;  
-    margin-left: 100px; 
-    margin-bottom: 15px;
-  } 
-
-  .checks{
-    font-size: 13px;
-  }
-
-  .one{
-  margin-left: 170px;
-  margin-bottom: 15px;
-}
-  .two{
-    margin-left: 100px;
-    margin-bottom: 15px;
-  }
-  .three{
-    margin-left: 15px;
-    margin-bottom: 15px;
-  }
-
-  .button{
-    margin-bottom: 10px;
-  }
-}
 @media screen and (max-width: 668px){
 
   .name{
@@ -333,6 +282,65 @@ body{
   }
 }
 
+@media screen and (min-width: 481px) and (max-width: 668px) {
+  body{ 
+    background: radial-gradient(circle at 73% 50%, rgba(159, 198, 25, 1) 0%, rgba(1, 30, 17, 1) 26%);
+    background-repeat: no-repeat;
+    position: relative;
+    overflow-y: hidden;
+  }
+
+  .name{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size:30px;
+  }
+
+  h2{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 23px;
+  }
+
+  .coach{
+    float: right;
+  }
+
+  .coach img{
+    width: 150px;
+  }
+
+    h3{
+    font-size: 11px;  
+    margin-left: 15px; 
+    margin-bottom: 15px;
+  } 
+
+  .checks{
+    font-size: 8px;
+  }
+
+  .one{
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+  .two{
+    margin-left: 30px;
+    margin-bottom: 15px;
+  }
+  .three{
+    margin-left: 10px;
+    margin-bottom: 15px;
+  }
+
+  .button{
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 20px 32px;
+margin-left: 150px;  }
+}
+
 
 @media screen and (max-width :480px){
   
@@ -342,9 +350,11 @@ body{
     position: relative;
     overflow-y: hidden;
   }
+
   .navbar{
     display: grid;
   }
+
   .name{
     font-size: 10px;
   }
