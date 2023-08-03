@@ -355,6 +355,7 @@ margin-left: 150px;  }
 
   .name{
     font-size: 14px;
+    margin-bottom: 100px;
   }
 
   .logo img{
@@ -368,7 +369,7 @@ margin-left: 150px;  }
   }
 
   h3{
-    font-size: 14px;
+    font-size: 9px;
     margin-left: 10px;
   }
 
@@ -380,10 +381,10 @@ margin-left: 150px;  }
     margin-left: 10px;
   }
   .two{
-    margin-left: 10px;
+    margin-left: 6px;
   }
   .three{
-    margin-left: 10px;
+    margin-left: 3px;
   }
 
   .coach{
