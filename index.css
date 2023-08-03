@@ -287,7 +287,6 @@ body{
     background: radial-gradient(circle at 73% 50%, rgba(159, 198, 25, 1) 0%, rgba(1, 30, 17, 1) 26%);
     background-repeat: no-repeat;
     position: relative;
-    overflow-y: hidden;
   }
 
   .name{
@@ -348,15 +347,14 @@ margin-left: 150px;  }
     background: radial-gradient(circle at 34% 53%, rgba(159, 198, 25, 1) 0%, rgba(1, 30, 17, 1) 26%);
     background-repeat: no-repeat;
     position: relative;
-    overflow-y: hidden;
   }
 
-  .navbar{
+  /* .navbar{
     display: grid;
-  }
+  } */
 
   .name{
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .logo img{
@@ -364,18 +362,18 @@ margin-left: 150px;  }
   }
 
   h2{
-    font-size: 12px;
+    font-size: 16px;
     text-align: left;
     margin-left: 18px;
   }
 
   h3{
-    font-size: 7px;
+    font-size: 14px;
     margin-left: 10px;
   }
 
   .checks{
-    font-size: 5px;
+    font-size: 8px;
   }
 
   .one{
@@ -397,9 +395,8 @@ margin-left: 150px;  }
   }
 
   .button{
-    font-size: 8px;
+    font-size: 10px;
     padding: 7px 32px;
-    margin-left: 10px;
-    bottom: 0;
+    margin-left: 100px;
   }
 }
