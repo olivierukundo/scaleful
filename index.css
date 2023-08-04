@@ -10,6 +10,7 @@ body{
   position: relative;
 }
 
+
   span{
     color: rgb(33, 33, 117);
   }
@@ -25,30 +26,18 @@ body{
 }
 .name{
   color: #16b108;
-  /* margin-top: 30px;
-  margin-left: 30px;
-  font-size:40px; */
 }
 
 
  h2{
   color: antiquewhite;
   display: block;
-  /* margin-left: 160px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-  font-size: 60px;
-  text-align: center; */
  }
 
- /* h3{
-  font-size: 20px;  
-  text-align: center;
-  margin-bottom: 15px;
- } */
 
 .content{
   color: beige;
+  min-height: 100vh;
 }
 
 .button {
@@ -69,10 +58,15 @@ body{
   color: white;
   padding: 15px 32px;
   text-align: center;
-  /* font-size: 25px; */
 }
 /* for screens that are extra large */
 @media screen and (min-width: 1000px){
+  .main{
+    height: 100vh;
+    overflow-y: hidden;
+  }
+  
+  
   .name{
     margin-top: 30px;
     margin-left: 30px;
@@ -102,7 +96,7 @@ body{
   } 
 
   .checks{
-    font-size: 17px;
+    font-size: 22px;
   }
 
   .one{
@@ -115,16 +109,23 @@ body{
   }
   .three{
     margin-left:70px;
-    margin-bottom: 15px;
+    margin-bottom: 150px;
   }
 
   .button{
     margin-bottom: 10px;
+    font-size: 24px;
+    padding: 22px 42px;
   }
 }
 
 /* a bit big Mobile */
 @media screen and (max-width: 1000px){
+  .main{
+    height: 100vh;
+    overflow-y: hidden;
+  }
+  
   .name{
     margin-top: 20px;
     margin-left: 30px;
@@ -134,7 +135,7 @@ body{
   h2{
     margin-left: 160px;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
     font-size: 30px;
     text-align: center;
   }
@@ -150,11 +151,11 @@ body{
     h3{
     font-size: 14px;  
     margin-left: 100px; 
-    margin-bottom: 16px;
+    margin-bottom: 25px;
   } 
 
   .checks{
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .one{
@@ -290,6 +291,11 @@ body{
     position: relative;
   }
 
+  .main{
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
   .name{
     margin-top: 30px;
     margin-left: 30px;
@@ -318,7 +324,7 @@ body{
   } 
 
   .checks{
-    font-size: 8px;
+    font-size: 13px;
   }
 
   .one{
@@ -338,35 +344,36 @@ body{
     margin-bottom: 10px;
     font-size: 16px;
     padding: 20px 32px;
-margin-left: 150px;  }
+    margin-left: 150px;  }
 }
 
 
 @media screen and (max-width :480px){
   
   body{ 
-    background: radial-gradient(circle at 34% 53%, rgba(159, 198, 25, 1) 0%, rgba(1, 30, 17, 1) 26%);
+    background: radial-gradient(circle at 34% 33%, rgba(159, 198, 25, 1) 0%, rgba(1, 30, 17, 1) 26%);
     background-repeat: no-repeat;
     position: relative;
   }
 
-  /* .navbar{
-    display: grid;
-  } */
+    .main{
+    height: 100vh;
+    overflow-y: hidden;
+  }
 
   .name{
     font-size: 14px;
     margin-bottom: 100px;
   }
 
-  .logo img{
+  /* .logo img{
     float: left;
-  }
+  } */
 
   h2{
     font-size: 16px;
     text-align: left;
-    margin-left: 18px;
+    margin-left: 200px;
   }
 
   h3{
@@ -375,7 +382,7 @@ margin-left: 150px;  }
   }
 
   .checks{
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .one{
@@ -386,6 +393,8 @@ margin-left: 150px;  }
   }
   .three{
     margin-left: 3px;
+    font-size: 10px;
+
   }
 
   .coach{
@@ -393,7 +402,7 @@ margin-left: 150px;  }
   }
 
   .coach img{
-    width: 70px;
+    width: 160px;
   }
 
   .button{
