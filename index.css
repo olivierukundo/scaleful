@@ -354,6 +354,7 @@ body{
     background: radial-gradient(circle at 34% 33%, rgba(159, 198, 25, 1) 0%, rgba(1, 30, 17, 1) 26%);
     background-repeat: no-repeat;
     position: relative;
+    background: black;
   }
 
     .main{
