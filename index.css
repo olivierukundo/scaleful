@@ -396,11 +396,12 @@ body{
   }
   .two{
     margin-left: 6px;
+    margin-right: 5px;
   }
   .three{
-    margin-left: 3px;
+    margin-left: 0px;
     font-size: 10px;
-
+    
   }
 
   .coach{
