@@ -24,6 +24,7 @@ body{
 .logo img{
   width: 140px;
 }
+
 .name{
   color: #16b108;
 }
@@ -354,7 +355,6 @@ body{
     background: radial-gradient(circle at 34% 33%, rgba(159, 198, 25, 1) 0%, rgba(1, 30, 17, 1) 26%);
     background-repeat: no-repeat;
     position: relative;
-    background: black;
   }
 
     .main{
@@ -363,8 +363,13 @@ body{
   }
 
   .name{
-    font-size: 14px;
-    margin-bottom: 100px;
+    font-size: 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .logo img{
+    width: 100px;
   }
 
   /* .logo img{
@@ -374,7 +379,7 @@ body{
   h2{
     font-size: 16px;
     text-align: left;
-    margin-left: 200px;
+    margin-left: 100px;
   }
 
   h3{
